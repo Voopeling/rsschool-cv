@@ -30,4 +30,4 @@ var humanYearsCatYearsDogYears = function(humanYears) {
    * Vocational school
 ## Languages
    * Russian - native speaker.
-   * English - A1 in process…
+   * English - A1 in study processes
