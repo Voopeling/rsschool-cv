@@ -1,0 +1,80 @@
+.hero{
+   display: flex;
+   height: 288px;
+   max-width: 1200px;
+   margin: 0 auto 0;
+   justify-content: space-around;
+   align-items: center;
+   border-bottom: 15px solid rgba(230, 181, 107, 0.6);
+}
+.hero-foto{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+.hero-name{
+   font-size: 50px;
+   color: #6b4545;
+}
+.hero__description{
+   max-width: 1200px;
+   height: 900px;
+   margin: 10px auto 0;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 1.4fr 1.3fr 1.2fr 0.6fr;
+   grid-column-gap: 40px;
+}
+.about-size{
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 3;
+}
+.element__description{
+   border-bottom: 2px solid rgba(230, 181, 107, 0.6);;
+}
+.element__title{
+   color: rgb(148, 93, 9);
+   padding-left: 30px;
+}
+.contacts__list{
+   list-style-type: circle;
+   color: #6b4545;
+   font-size: 20px;
+   padding: 0 0 0 50px;
+}
+.contakts-element{
+   padding: 0 0 10px 10px;
+}
+.contakts-link{
+   text-decoration: none;
+   color: rgb(199, 144, 62);
+}
+.contakts-discord{
+   color: rgb(199, 144, 62);
+}
+.text{
+   color: #6b4545;
+   font-size: 20px;
+   padding: 0 0 0 30px;
+}
+.skills__list{
+   list-style-type: circle;
+   color: #6b4545;
+   font-size: 20px;
+   padding: 0 0 0 50px;
+}
+.skills__item{
+   padding: 0 0 10px 10px;
+}
+.code__wraper{
+   background-color: #eeeded;
+}
+.code{
+   color: #6b4545;
+   font-size: 16px;
+}
+.active{
+   background: rgba(199, 144, 62, 0.199);
+}

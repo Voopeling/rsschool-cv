@@ -1,0 +1,27 @@
+.footer{
+   max-width: 1440px;
+   height: 50px;
+   margin: 0;
+   background-color: rgb(230, 181, 107);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: -2px;
+}
+.footer-text{
+   color: #6b4545;
+   font-size: 16px;
+}
+.footer-git{
+   text-decoration: none;
+   color: #6b4545;
+   font-size: 20px;
+   margin-left: 40px;
+}
+.footer-link{
+   margin-right: 40px;
+}
+.footer-logo{
+   height: 50px;
+   width: 100px;
+}
