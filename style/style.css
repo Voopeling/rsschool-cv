@@ -1,0 +1,10 @@
+html{
+   background: url(/foto/white-elegant-texture-background_23-2148445782.webp) no-repeat;
+   background-size: cover;
+}
+body{
+   max-width: 1440px;
+   margin: 0 auto ;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 1px 0px 200px ;
+}
